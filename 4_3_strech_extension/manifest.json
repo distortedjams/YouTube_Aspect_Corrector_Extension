@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "4:3 Video Stretcher",
+    "description": "Stretches and blurs a secondary video to fill the black portions of 4:3 videos in fullscreen mode.",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ]
+}

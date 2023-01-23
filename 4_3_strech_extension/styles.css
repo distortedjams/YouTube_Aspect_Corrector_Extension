@@ -1,0 +1,4 @@
+video:last-child {
+    filter: blur(10px);
+    object-fit: fill;
+}
